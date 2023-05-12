@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http - http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+        <title>javascript-1</title>
+        <script>
+
+/* Escreva um programa em que o usuário informe dois números utilizando o
+ "prompt". Então escreva em tela o maior deles. */
+       
+//-- Receber Dados.
+var valor1 = prompt("Informe o primeiro valor");
+var valor2 = prompt("Informe o segundo valor");
+var maior_numero = 0;
+
+//-- coverter os dados do tipo texto para tipo
+
+valor1 = Number (valor1); // "10" -> 10
+valor2 = Number (valor2); // "10" -> 10
+
+// comparo os valores
+
+if (valor1 > valor2) {
+    maior_numero = valor1;
+    alert(maior_numero);
+} else if (valor1 < valor2) {
+    maior_numero = valor2;
+    alert(maior_numero);
+}else{
+    alert ("os dois números são iguais" );
+}
+
+</script>
+</head>
+<body>
+</body>
+</html>
